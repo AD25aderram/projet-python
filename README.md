@@ -14,6 +14,7 @@ Une application desktop simple pour gérer les notes des étudiants en Python et
 - Python 3.x
 - Bibliothèques Python :
   - tkinter (interface graphique)
+  - csv (module standard pour l'export au format CSV)
   - sqlite3 (base de données)
 
 ## Installation
