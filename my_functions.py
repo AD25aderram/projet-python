@@ -20,7 +20,7 @@ def open_window_login():
     window = Tk()
     window.geometry("500x350")
     window.title("Authentification")
-    window.resizable(False, False)
+    window.minsize(400, 300)  
 
 
     frame = ttk.Frame(window, padding=40)
@@ -62,7 +62,7 @@ def open_window_module():
     window = Tk()
     window.title("Choix du module")
     window.geometry("400x300")
-    window.resizable(False, False)
+    window.minsize(300, 250)  
     
 
     frame = ttk.Frame(window, padding=40)
@@ -80,7 +80,7 @@ def open_window_action(choix):
     window = Tk()
     window.title("Choix de l'action")
     window.geometry("400x350")
-    window.resizable(False, False)
+    window.minsize(300, 300)  
     
 
     frame = ttk.Frame(window, padding=40)
@@ -97,7 +97,7 @@ def open_window_modifier(choix):
     window = Tk()
     window.title("Modifier une note")
     window.geometry("450x350")
-    window.resizable(False, False)
+    window.minsize(400, 300)  
     
 
     frame = ttk.Frame(window, padding=40)
@@ -205,6 +205,7 @@ def open_window_export(choix):
     window = Tk()
     window.geometry("400x250")
     window.title("Exportation des notes")
+    window.minsize(300, 200)  
     
 
     frame = ttk.Frame(window, padding=40)
