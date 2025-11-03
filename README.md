@@ -1,6 +1,10 @@
 # Application de Gestion des Notes
 
 Une application desktop simple pour gérer les notes des étudiants en Python et C.
+realiser par:
+- Adam Aderram
+- Abderrahmane Hajjam
+- Yassine Jahjah
 
 ## Fonctionnalités
 
